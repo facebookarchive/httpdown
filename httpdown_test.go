@@ -15,7 +15,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/benbjohnson/clock"
+	"github.com/facebookgo/clock"
 	"github.com/facebookgo/ensure"
 	"github.com/facebookgo/freeport"
 	"github.com/facebookgo/httpdown"

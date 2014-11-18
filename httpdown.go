@@ -14,7 +14,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/benbjohnson/clock"
+	"github.com/facebookgo/clock"
 	"github.com/facebookgo/stats"
 )
 
