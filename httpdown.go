@@ -5,7 +5,6 @@ package httpdown
 import (
 	"crypto/tls"
 	"fmt"
-	"log"
 	"net"
 	"net/http"
 	"os"
