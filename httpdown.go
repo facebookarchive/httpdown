@@ -363,7 +363,7 @@ func ListenAndServe(s *http.Server, hd *HTTP) error {
 		if err != nil {
 			return err
 		}
-	case s := <-signals:
+	case <-signals:
 		signal.Stop(signals)
 		if err := hs.Stop(); err != nil {
 			return err
